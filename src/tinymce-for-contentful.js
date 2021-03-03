@@ -22,6 +22,7 @@ window.contentfulExtension.init(function(api) {
       plugins: p,
       toolbar: tb,
       menubar: mb,
+      font_formats: '',
       min_height: 600,
       max_height: 750,
       autoresize_bottom_margin: 15,
