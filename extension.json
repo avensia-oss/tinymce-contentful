@@ -4,30 +4,13 @@
   "src": "https://contentful.tiny.cloud/",
   "fieldTypes": ["Text"],
   "parameters": {
-    "installation": [
-      {
-        "id": "apiKey",
-        "type": "Symbol",
-        "name": "TinyMCE Cloud API Key",
-        "description": "",
-        "required": false,
-        "default": "please-specify-your-key"
-      },
-      {
-        "id": "channel",
-        "type": "Symbol",
-        "name": "TinyMCE Cloud 'channel' to use",
-        "description": "",
-        "required": false,
-        "default": "5"
-      }
-    ],
+    "installation": [],
     "instance": [
       {
           "id": "plugins",
           "name": "Plugins",
           "type": "Symbol",
-          "default": "autoresize textpattern lists advlist a11ychecker linkchecker media mediaembed powerpaste tinymcespellchecker advcode image",
+          "default": "autoresize textpattern lists advlist media image",
           "required": false,
           "description": "Space separated list of TinyMCE plugins to enable. See https://www.tiny.cloud/docs/plugins/ for more information on plugins."
       },
